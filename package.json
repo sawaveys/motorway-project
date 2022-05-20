@@ -1,0 +1,26 @@
+{
+  "name": "motorway-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/register": "^7.17.7",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.2",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0",
+    "nodemon": "^2.0.16"
+  }
+}
